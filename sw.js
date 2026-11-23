@@ -1,7 +1,7 @@
 /* СКТО | Дневник конькобежца: service worker.
    ВАЖНО: при выпуске новой версии измените номер VERSION — тогда у пользователей появится «Доступно обновление».
    Service worker НЕ трогает IndexedDB, данные пользователя при обновлении сохраняются. */
-const VERSION = '2.1.0';
+const VERSION = '2.2.0';
 const CACHE = 'skto-diary-' + VERSION;
 const FILES = ['./', 'index.html', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png',
   'icons/icon-maskable-512.png', 'icons/apple-touch-icon.png', 'icons/favicon-32.png', 'icons/favicon.ico'];
